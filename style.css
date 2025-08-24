@@ -55,10 +55,10 @@ body {
 
   /* ganti warna solid dengan gambar */
   background-image: url("image/bg_ungu.jpg"); 
-  background-size: cover;          /* supaya gambar nutup seluruh layar */
-  background-repeat: no-repeat;    /* biar ga diulang */
-  background-position: center;     /* gambar fokus di tengah */
-  background-attachment: fixed;    /* efek parallax (opsional) */
+  background-size: cover;          
+  background-repeat: no-repeat;   
+  background-position: center;     
+  background-attachment: fixed;    
 }
 
 img { max-width: 100%; height: auto; display: block; }
