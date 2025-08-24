@@ -17,4 +17,4 @@ Proyek ini dibangun dari awal **tanpa menggunakan framework CSS** apa pun, sehin
     [https://qlioamanda.github.io/cv-website/]
 
 * **Link GitHub Repositori:**
-    [https://github.com/QlioAmanda/cv-website.git]
+    [https://github.com/QlioAmanda/cv-portofolio-website.git]
