@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Qlio Amanda Febriany – Portofolio</title>
+  <meta name="description" content="Portofolio satu halaman milik Qlio Amanda Febriany – mahasiswa D3 Teknik Informatika Polban, calon full‑stack developer." />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Lewati ke konten utama</a>
+
+    <!-- INTRO / LANDING PAGE -->
+  <section class="intro" id="intro">
+    <div class="intro-content">
+      <h1>Hai, I'm Qlio</h1>
+      <a href="#tagline" class="intro-btn">Jelajahi Portofolio Saya</a>
+    </div>
+  </section>
+
+  <!-- ====== NAVBAR ====== -->
+  <header class="site-header" role="banner">
+    <div class="container nav" aria-label="Bar navigasi">
+      <a class="brand" href="#top" aria-label="Beranda">
+        <span class="dot" aria-hidden="true"></span>
+        <span id="tagline">Qlio • Portofolio</span>
+      </a>
+      <nav class="nav-links" aria-label="Navigasi utama">
+        <a href="#about">Tentang</a>
+        <a href="#edu">Riwayat</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Proyek</a>
+        <a href="#contact">Kontak</a>
+      </nav>
+      <button id="hamburger" class="hamburger" aria-controls="mobileMenu" aria-expanded="false" aria-label="Buka menu">☰</button>
+    </div>
+    <nav id="mobileMenu" class="mobile-menu container" hidden>
+      <a href="#about">Tentang</a>
+      <a href="#edu">Riwayat</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Proyek</a>
+      <a href="#contact">Kontak</a>
+    </nav>
+  </header>
+
+  <main id="main" tabindex="-1">
+    <!-- ====== HERO / ABOUT ====== -->
+    <section id="about" class="hero container">
+      <div class="hero-grid">
+        <div>
+          <span class="tag">Mahasiswa • D3 Teknik Informatika • Polban</span>
+          <h1>QLIO AMANDA FEBRIANY</h1>
+          <p class="lead">Saya mahasiswa D3 Teknik Informatika POLBAN angkatan 2024, lulusan SMAN 7 Bandung. Aktif berorganisasi sejak SMP, terutama di pramuka, OSIS dan saat ini menjabat sebagai staf muda Keilmuan dan Keprofesian di himpunan.</p>
+          <div class="actions" style="margin-top: .75rem;">
+            <a class="cta" href="#projects">Lihat Proyek</a>
+            <a class="cta secondary" href="#contact">Hubungi Saya</a>
+          </div>
+        </div>
+        <div style="justify-self:center;">
+          <img class="avatar" src="image/qlio.jpg" alt="Foto profil Manda (placeholder)" />
+        </div>
+      </div>
+    </section>
+    
+    <!-- ====== RIWAYAT PENDIDIKAN & PENGALAMAN ====== -->
+    <section id="edu" class="container">
+      <h2>Riwayat Pendidikan & Pengalaman</h2>
+      <div class="cards">
+        <article class="card">
+          <h3>Pendidikan</h3>
+          <div class="timeline">
+            <div class="t-item">
+              <div class="t-meta">[2024 – Sekarang]</div>
+              <strong>Politeknik Negeri Bandung</strong> – D3 Teknik Informatika
+              <div class="t-meta">Fokus: dasar data, C/C++.</div>
+            </div>
+            <div class="t-item">
+              <div class="t-meta">[2021 – 2024]</div>
+              <strong>SMAN 7 Bandung</strong> – MIPA
+            </div>
+            <div class="t-item">
+              <div class="t-meta">[2018 – 2021]</div>
+              <strong>SMPN 3 Baleendah</strong>
+            </div>
+            <div class="t-item">
+              <div class="t-meta">[2012 – 2018]</div>
+              <strong>SDN Rancamanyar 02</strong>
+            </div>
+          </div>
+        </article>
+        <article class="card">
+          <h3>Pengalaman/Organisasi</h3>
+          <div class="timeline">
+            <div class="t-item">
+              <div class="t-meta">[2024 – Sekarang]</div>
+              <strong>Himpunan Kampus</strong> – Staff Muda Keilmuan dan Keprofesian
+              <div class="t-meta">Fokus pengembangan skill manajerial & teamwork.</div>
+            </div>
+            <div class="t-item">
+              <div class="t-meta">[2022 – 2025]</div>
+              <strong>DKR Lengkong (Pramuka)</strong> – Wakil Ketua
+              <div class="t-meta">Mengelola pendataan dan perlombaan Pramuka di Kwartir Ranting Lengkong.</div>
+            </div>
+            <div class="t-item">
+              <div class="t-meta">[2022 – 2023]</div>
+              <strong> OSIS & Ekstrakurikuler</strong> – Ketua Pramuka
+              <div class="t-meta">Merancang kegiatan Pramuka dari ekstrakurikuler, OSIS, hingga satu sekolah, dengan koordinasi pembinaan.</div>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- ====== SKILLS ====== -->
+    <section id="skills" class="container">
+      <h2>Daftar Keterampilan</h2>
+      <div class="cards">
+        <article class="card">
+          <h3>Pemrograman</h3>
+          <p class="badges">
+            <span class="badge">C</span>
+            <span class="badge">C++</span>
+            <span class="badge">Raylib</span>
+          </p>
+        </article>
+        <article class="card">
+          <h3>Tools</h3>
+          <p class="badges">
+            <span class="badge">Git & GitHub</span>
+            <span class="badge">VS Code</span>
+            <span class="badge">Canva</span>
+            <span class="badge">Blender (pemula)</span>
+          </p>
+        </article>
+        <article class="card">
+          <h3>Soft Skills</h3>
+          <p class="badges">
+            <span class="badge">Komunikasi</span>
+            <span class="badge">Kerja Tim</span>
+            <span class="badge">Organisasi</span>
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <!-- ====== PROYEK / PORTOFOLIO ====== -->
+    <section id="projects" class="container">
+      <h2>Proyek & Portofolio</h2>
+      <div class="project-grid">
+        <article class="card project-card">
+        <div class="project-thumb">
+            <img src="image/flappy.jpg" alt="Flappy Bird (C + Raylib)">
+        </div>
+          <h3>Flappy Bird</h3>
+          <p>Game sederhana menggunakan C dan Raylib: skor, highscore, efek suara, serta penyimpanan ke file. (Sedang pengembangan)</p>
+          <div class="actions">
+            <a class="btn" href="https://github.com/zahraldila/C2-FlappyBird.git" target="_blank" rel="noopener noreferrer"">Repo GitHub</a>
+          </div>
+        </article>
+        <article class="card">
+          <h3>Portofolio</h3>
+          <p>Ketua Pelaksana Program Kerja:</p>
+          <div class="timeline">
+            <div class="t-item">
+              <div class="t-meta">[24-25 Juni 2023]</div>
+              <strong>DKR Lengkong</strong> – Latihan Pengelolaan Dewan Ambalan
+              <div class="t-meta">Mengkoordinasikan pelatihan pengelolaan Dewan Ambalan bagi Pramuka Penegak dan Pandega se-Kota Bandung.</div>
+            </div>
+            <div class="t-item">
+              <div class="t-meta">[09-10 Februari 2023]</div>
+              <strong> Pramuka SMAN 7 Bandung</strong> – Siaga Bencana
+              <div class="t-meta">Mengkoordinasikan anggota Pramuka dalam program simulasi dan edukasi kesiapsiagaan bencana untuk warga sekolah bersama BPBD.</div>
+            </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- ====== MEDIA TAMBAHAN (OPSIONAL) ====== -->
+    <section class="container" aria-labelledby="media-heading">
+      <h2 id="media-heading">Media Tambahan</h2>
+      <div class="cards">
+        <article class="card">
+          <h3>Galeri Foto</h3>
+          <div class="gallery">
+            <img src="image/lpda.jpg" alt="Kegiatan 1">
+            <img src="image/siaga_bencana.jpg" alt="Kegiatan 2">
+            <img src="image/scout7.jpg" alt="Kegiatan 3">
+            <img src="image/kaa.jpg" alt="Kegiatan 4">
+            <img src="image/pbb.jpg" alt="Kegiatan 5">
+            <img src="image/dkr.jpg" alt="Kegiatan 6">
+            <img src="image/pengibaran.jpg" alt="Kegiatan 7">
+            <img src="image/osis.jpg" alt="Kegiatan 8">
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- ====== KONTAK ====== -->
+    <section id="contact" class="container">
+      <h2>Kontak</h2>
+      <div class="cards">
+        <article class="card">
+          <ul>
+            <li>Email: <a href="mailto:qlioamanda@gmail.com">qlioamanda@gmail.com</a></li>
+            <li>GitHub: <a href="https://github.com/QlioAmanda" target="_blank" rel="noopener">github.com/mandaqx</a></li>
+            <li>LinkedIn: <a href="#" target="_blank" rel="noopener">linkedin.com/in/Qlio Amanda F</a></li>
+            <li>Instagram: <a href="#" target="_blank" rel="noopener">@mandaqx_</a></li>
+          </ul>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">© <span id="year"></span> Qlio Amanda Febriany • Dibuat dengan HTML & CSS. Responsif, cepat, dan simple.</div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+
+    const btn = document.getElementById('hamburger');
+    const menu = document.getElementById('mobileMenu');
+    btn.addEventListener('click', () => {
+      const open = btn.getAttribute('aria-expanded') === 'true';
+      btn.setAttribute('aria-expanded', String(!open));
+      if (menu.hasAttribute('hidden')) {
+        menu.removeAttribute('hidden');
+        menu.style.display = 'block';
+      } else {
+        menu.setAttribute('hidden', '');
+        menu.style.display = 'none';
+      }
+    });
+
+    menu.querySelectorAll('a').forEach(a => a.addEventListener('click', () => {
+      menu.setAttribute('hidden', '');
+      menu.style.display = 'none';
+      btn.setAttribute('aria-expanded', 'false');
+    }));
+  </script>
+</body>
+</html>
