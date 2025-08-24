@@ -1,4 +1,4 @@
-# Personal Portfolio Website
+# Personal CV & Portofolio Website
 
 ## a. Penjelasan Singkat tentang Proyek
 Proyek ini adalah sebuah **Landing Page Responsive (Satu Halaman)** yang dibuat sebagai portofolio dan CV pribadi. Tujuan utamanya adalah untuk memenuhi [nama mata kuliah atau tugas] dengan mendemonstrasikan pemahaman dasar dalam **HTML** dan **CSS** untuk membuat halaman web yang dapat ditampilkan dengan baik di berbagai perangkat (mobile, tablet, dan desktop).
