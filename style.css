@@ -99,7 +99,6 @@ header.site-header { position: sticky; top: 0; background: rgba(255,255,255,.8);
 .nav-links a:hover { background: var(--line); text-decoration: none; }
 .hamburger { appearance: none; border: 1px solid var(--line); background: var(--card); padding: .5rem .6rem; border-radius: .6rem; box-shadow: var(--shadow); }
 
-/* Tambahkan kembali gaya untuk hamburger */
 .hamburger { 
   appearance: none; 
   border: 1px solid var(--line); 
