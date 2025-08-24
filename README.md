@@ -14,7 +14,7 @@ Proyek ini dibangun dari awal **tanpa menggunakan framework CSS** apa pun, sehin
 
 ## d. Jika berhasil deploy, tuliskan linknya
 * **URL Website:**
-    [https://qlioamanda.github.io/cv-website/]
+    [https://qlioamanda.github.io/cv-portofolio-website/]
 
 * **Link GitHub Repositori:**
     [https://github.com/QlioAmanda/cv-portofolio-website.git]
